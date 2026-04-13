@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Bot, Play, Pause, StepForward, RotateCcw } from 'lucide-react';
 
 
