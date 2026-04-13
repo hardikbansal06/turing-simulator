@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Roboto", "Outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+
+.tape-cell {
+  transition: all 0.3s ease;
+}
+
+.tape-cell.active {
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+  border-color: #38bdf8;
+  background-color: rgba(56, 189, 248, 0.1);
+}
+
+.tape-container {
+  display: flex;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
